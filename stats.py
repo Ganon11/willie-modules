@@ -14,4 +14,3 @@ def setup(bot):
 def report_stats(bot, trigger):
    site = bot.memory['stats_site']
    return bot.reply("See IRC stats at %s! Ask an owner for username/password." % site)
-   
